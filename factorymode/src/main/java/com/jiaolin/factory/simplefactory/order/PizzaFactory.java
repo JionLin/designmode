@@ -13,10 +13,8 @@ import com.jiaolin.factory.simplefactory.pizza.Pizza;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class PizzaFactory {
-
 
 
     // 来创建披萨 如果需要胡椒 或者芝士或者 希腊披萨
@@ -37,8 +35,6 @@ public class PizzaFactory {
 
     // 静态方法创建
     public static Pizza createPizza2(String orderType) {
-        ConcurrentHashMap concurrentHashMap=new ConcurrentHashMap<>();
-
         Pizza pizza = null;
         if (orderType.equals("chicken")) {
             pizza = new ChickenPizza();
