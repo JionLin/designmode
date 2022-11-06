@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>factorymode</module>
+        <module>adaptermode</module>
     </modules>
 
     <properties>
